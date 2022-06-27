@@ -1,0 +1,35 @@
+.ContainerSectionOne{
+    height: calc(100vh - 120px) ;
+    width: 100%;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    .containerText{
+        grid-area: 1 / 2 / 2 / 3;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        h1{
+           font-size: 58px;
+           font-weight: 700;
+           
+           margin-left: 4rem;
+           max-width: 85%;
+        }
+        span{
+          margin-top: 1.1rem;
+          margin-left: 2.5rem;
+         
+        }
+        .containerBtm{
+          padding-left: 4.5rem;
+          margin-top: 1.5rem;
+        }
+        
+    }
+
+}

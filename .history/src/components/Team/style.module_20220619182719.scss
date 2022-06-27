@@ -1,0 +1,28 @@
+.containerTeam{
+   height: 100%;
+   display: flex;
+  
+   .ContentOne{
+      width: 400px;
+      height: 500px ;
+       background: url(/images/team1.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+     
+   .ContentTwo{
+      width: 400px;
+      height: 500px ;
+       background: url(/images/team1.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+   .containerTree{
+      max-width: 400px;
+      height: 500px ;
+       background: url(/images/team1.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+   
+}

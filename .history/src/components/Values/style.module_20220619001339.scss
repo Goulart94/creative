@@ -1,0 +1,12 @@
+.carosel{
+display: flex;
+justify-content: center;
+transition-duration: 0.5s !important;
+.card{
+    width: 300px;
+    height: 400px;
+    background: var(--gray-850);
+    margin: 40px;
+}
+
+}

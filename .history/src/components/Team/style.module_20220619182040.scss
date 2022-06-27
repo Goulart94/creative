@@ -1,0 +1,21 @@
+.containerTeam{
+   height: 100%;
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   grid-column-gap: 15px;
+   grid-row-gap: 9px;
+
+   .ContentOne{
+       grid-area: 1 / 3 / 2 / 7;
+       background: url(/images/team1.jpg);
+       background-repeat: no-repeat;
+     
+   .ContentTwo{
+      grid-area: 1 / 7 / 2 / 11;
+   }
+   .containerTree{
+      grid-area: 2 / 5 / 3 / 9;
+   }
+   
+}

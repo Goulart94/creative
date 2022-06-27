@@ -1,0 +1,15 @@
+.btnAbout{
+  width: 300px;
+  padding: 1rem;
+  background: var(--pink-300);
+  color: var(--blue-900);
+  font-size: 17px;
+  font-weight: 400;
+  border: none;
+  border-radius: 1rem;
+
+  &:hover{
+    background: var(--pink-500);
+  }
+  
+}

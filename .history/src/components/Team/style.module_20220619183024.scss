@@ -1,0 +1,30 @@
+.containerTeam{
+   height: 100%;
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
+   grid-template-rows: repeat(2, 300px);
+   grid-column-gap:0;
+   grid-row-gap: 9px;
+   margin-top: 2rem;
+
+   .ContentOne{
+      grid-area: 2 / 5 / 3 / 9;
+       background: url(/images/team1.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+     
+   .ContentTwo{
+      grid-area: 1 / 2 / 2 / 6;
+      background: url(/images/team1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
+   .containerTree{
+      grid-area: 1 / 8 / 2 / 12;
+      background: url(/images/team1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
+   
+}
