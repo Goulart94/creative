@@ -1,0 +1,115 @@
+.containerCards {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 150px 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    .containerText {
+        grid-area: 1 / 1 / 2 / 13;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+            text-align: center;
+            font-size: 4vh;
+
+        }
+    }
+
+    .contentcards {
+        grid-area: 2 / 3 / 3 / 11;
+        display: flex;
+        justify-content: center;
+
+        .cards {
+            margin-top: 2rem;
+            width: 370px;
+            height: 460px;
+            background-color: var(--gray-100);
+            box-shadow: 0px 8px 17px -8px #2e1f6b;
+            transition: 0.5s;
+            margin-left: 30px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 150px 210px 90px;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            padding: 1rem;
+
+
+            &:hover {
+                transform: scale(1.03);
+
+            }
+
+            &:first-child {
+                margin-left: 0;
+            }
+            .containerIcon{
+            
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             .boxImage{
+                width: 130px;
+                height: 130px;
+                border-radius: 50%;
+                background:  var(--blue-900);
+                display: flex;
+                justify-content: center;
+
+                img{
+                    width: 70px;
+                }
+                .iconredes {
+                    margin-left: 20px;
+                }
+                .iconCriacaoLogo{
+                    margin-bottom: 20px;
+                }
+             }
+            }
+            .textcard{
+              text-align: center;
+              h2{
+                margin-top: 1rem;
+              }
+              p{
+                margin-top: 1rem;
+              }
+            }
+            .containerButton{
+                display: flex;
+                justify-content: center;
+                 button{
+                    padding-top: 0.7rem;
+                    padding-bottom: 0.7rem;
+                    padding-left: 3rem;
+                    padding-right: 3rem;
+                    border: none;
+                    color: var(--white);
+                    background: var(--blue-900);
+                    transition: 0.5s;
+
+                    .icon{
+                        position: relative;
+                        left: 30px;
+                        font-size: 20px;
+                      
+
+                    }
+
+                    &:hover{
+                        background: var(--pink-500);
+                    }
+                 }
+            }
+        }
+    }
+}
