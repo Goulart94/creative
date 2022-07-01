@@ -5,8 +5,6 @@ import style from "../styles/home.module.scss";
 import Typewriter from "typewriter-effect";
 import CardsService from "../components/cardsService";
 import Footer from "../components/Footer";
-import WorkWhithUs from "../components/workWhithUs";
-import WorkTogether from "../components/workTogether";
 
 const Home: NextPage = () => {
   return (
@@ -47,11 +45,10 @@ const Home: NextPage = () => {
 
         {/*Section-there */}
         <section className={style.containerWorkTogether}>
-           <WorkTogether></WorkTogether>
+
         </section>
 
       </main>
-      <WorkWhithUs></WorkWhithUs>
 
       <Footer></Footer>
 

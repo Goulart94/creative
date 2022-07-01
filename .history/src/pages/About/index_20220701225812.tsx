@@ -6,7 +6,6 @@ import Team from "../../components/Team";
 import ButtomAbout from "../../components/buttomAbout/ButtomAbout";
 import Footer from "../../components/Footer";
 import ScrollAnimation from "react-animate-on-scroll";
-import WorkWhithUs from "../../components/workWhithUs";
 
 export default function About() {
   return (
@@ -87,8 +86,19 @@ export default function About() {
       </ScrollAnimation>
 
       {/*Section Four */}
+      <ScrollAnimation animateIn='fadeIn'
+  animateOut='fadeOut'>
+      <section className={style.sectionFive}>
+        <div className={style.containerTextFive}>
+          <h1>Let's work together ?</h1>
+          <span>Temos a solução ideal para seu negócio.</span>
+          <button>Contacte</button>
+        </div>
+      </section> 
+      </ScrollAnimation>
 
-    <WorkWhithUs></WorkWhithUs>
+       {/*Section Four */}
+
        <Footer></Footer>
     </>
   );

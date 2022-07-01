@@ -51,9 +51,8 @@
 
 //------------------SECTION TWO ----------------------//
 
-.containerMain{
+.containerSectionTwo{
   background: var(--white);
-  margin-bottom: 4rem;
  
 
 .containerServices{
@@ -68,7 +67,8 @@
 }
 
 //------------------SECTION there ----------------------//
-
+.containerSectionTwo{
+  background: var(--white);
  
 
 .containerWorkTogether{
@@ -80,3 +80,4 @@
     border-image-slice: 1;
     width: 100%;
   }
+}

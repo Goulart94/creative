@@ -4,14 +4,11 @@ import ButtomAbout from "../components/buttomAbout/ButtomAbout";
 import style from "../styles/home.module.scss";
 import Typewriter from "typewriter-effect";
 import CardsService from "../components/cardsService";
-import Footer from "../components/Footer";
-import WorkWhithUs from "../components/workWhithUs";
-import WorkTogether from "../components/workTogether";
 
 const Home: NextPage = () => {
   return (
     <>
-      {/*Section-One */}
+    {/*Section-One */}
       <section className={style.ContainerSectionOne}>
         <div className={style.containerText}>
           <h1>Somos uma Agência de Marketing Digital</h1>
@@ -39,22 +36,22 @@ const Home: NextPage = () => {
           </div>
         </div>
       </section>
-      {/*Section-two */}
-      <main className={style.containerMain}>
-        <section className={style.containerServices}>
-          <CardsService />
-        </section>
+        {/*Section-two */}
+      <section className={style.containerSectionTwo} >
+        <div className={style.containerServices}>
+          <CardsService/>
 
-        {/*Section-there */}
-        <section className={style.containerWorkTogether}>
-           <WorkTogether></WorkTogether>
-        </section>
+        </div>
 
-      </main>
-      <WorkWhithUs></WorkWhithUs>
+      </section>
+         {/*Section-there */}
+         <section className={style.containerSectionTwo} >
+        <div className={style.containerServices}>
+          <CardsService/>
 
-      <Footer></Footer>
+        </div>
 
+      </section>
     </>
   );
 };
