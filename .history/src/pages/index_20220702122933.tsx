@@ -9,7 +9,6 @@ import WorkWhithUs from "../components/workWhithUs";
 import WorkTogether from "../components/workTogether";
 import ScrollAnimation from "react-animate-on-scroll";
 import MainServices from "../components/mainServices";
-import CommitmentServices from "../components/CommitmentServices";
 
 
 const Home: NextPage = () => {
@@ -57,7 +56,7 @@ const Home: NextPage = () => {
 
           {/*Section-for */}
           <section className={style.containerServices}>
-         <CommitmentServices></CommitmentServices>
+        
         </section>
 
 

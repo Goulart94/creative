@@ -12,7 +12,7 @@ export default function Footer() {
       <footer className={style.containerFooter}>
         <div className={style.contentTop}>
             <div className={style.containerLogo}>
-                <img src="/images/logotipo.png" alt="logo" />
+                <img src="/images/svg/logo3.svg" alt="logo" />
             </div>
             <div className={style.containerAddress}>
                 <h2>Onde estamos</h2>

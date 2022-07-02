@@ -12,17 +12,15 @@ import "swiper/css/pagination";
 
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper";
-import { RiChat1Fill, RiCoinsLine, RiFocus3Line, RiMentalHealthLine, RiRocketFill, RiRunLine } from 'react-icons/ri';
-import ScrollAnimation from 'react-animate-on-scroll';
+import { RiFocus3Line } from 'react-icons/ri';
 
 
 
 export default function WorkTogether() {
   return (
     <>
-   <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
-      <section className={style.container}>
-        <h1>AS RAZÕES PORQUE NOS ESCOLHEM​</h1>
+    <section className={style.container}>
+        <h1>O que nos torna únicos</h1>
         <div className={style.containerCenter}>
 
         <Swiper
@@ -60,36 +58,10 @@ export default function WorkTogether() {
             </div>
         </SwiperSlide>
         <SwiperSlide className={style.containerCarosel}>
-        <div className={style.card}>
-             <div className={style.ContentTitle}>
-              <RiRocketFill className={style.icon}/><h2>Inovação</h2>
-              <p>Na área da tecnologia tudo muda constantemente e temos como dever nos manter atualizados. <br></br> Para que sempre conseguirmos entregar Websites modernos e eficientes para nossos clientes.    </p>
-             </div>
-            </div>
+          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
         </SwiperSlide>
         <SwiperSlide className={style.containerCarosel}>
-        <div className={style.card}>
-              <div className={style.ContentTitle}>
-                <RiChat1Fill className={style.icon}/><h2>Contato fácil</h2>
-                <p>Por norma devemos está sempre disponíveis aos nossos clientes seja por e-mail, Telefone, WhatsApp ou qualquer outro canal de comunicação.     </p>
-               </div>
-              </div>
-        </SwiperSlide>
-        <SwiperSlide className={style.containerCarosel}>
-        <div className={style.card}>
-            <div className={style.ContentTitle}>
-                <RiCoinsLine className={style.icon}/><h2>Preço justo</h2>
-                <p>Cobramos um preço justo por todos os nossos trabalhos, nunca buscamos prejudicar nossos parceiros e clientes.  </p>
-               </div>
-            </div>
-        </SwiperSlide>
-        <SwiperSlide className={style.containerCarosel}>
-        <div className={style.card}>
-            <div className={style.ContentTitle}>
-                <RiMentalHealthLine className={style.icon}/><h2>Social</h2>
-                <p>Sabemos a importância de cada um no mundo e por isso uma parte de nossos lucros são convertidos em ajuda para a comunidade.  </p>
-               </div>
-            </div>
+          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
         </SwiperSlide>
         
    
@@ -98,7 +70,6 @@ export default function WorkTogether() {
         </div>
   
     </section>
-    </ScrollAnimation>
     </>
   )
 }

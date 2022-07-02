@@ -3,14 +3,11 @@ import Head from "next/head";
 import ButtomAbout from "../components/buttomAbout/ButtomAbout";
 import style from "../styles/home.module.scss";
 import Typewriter from "typewriter-effect";
-import CardsService from "../components/mainServices";
+import CardsService from "../components/cardsService";
 import Footer from "../components/Footer";
 import WorkWhithUs from "../components/workWhithUs";
 import WorkTogether from "../components/workTogether";
 import ScrollAnimation from "react-animate-on-scroll";
-import MainServices from "../components/mainServices";
-import CommitmentServices from "../components/CommitmentServices";
-
 
 const Home: NextPage = () => {
   return (
@@ -47,19 +44,13 @@ const Home: NextPage = () => {
       <main className={style.containerMain}> 
        {/*Section-two */}
         <section className={style.containerServices}>
-          <MainServices/>
+          <CardsService />
         </section>
 
         {/*Section-there */}
         <section className={style.containerWorkTogether}>
            <WorkTogether></WorkTogether>
         </section>
-
-          {/*Section-for */}
-          <section className={style.containerServices}>
-         <CommitmentServices></CommitmentServices>
-        </section>
-
 
       </main>
       <WorkWhithUs></WorkWhithUs>

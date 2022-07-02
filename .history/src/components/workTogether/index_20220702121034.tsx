@@ -22,7 +22,7 @@ export default function WorkTogether() {
     <>
    <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
       <section className={style.container}>
-        <h1>AS RAZÕES PORQUE NOS ESCOLHEM​</h1>
+        <h1>O que nos torna únicos</h1>
         <div className={style.containerCenter}>
 
         <Swiper

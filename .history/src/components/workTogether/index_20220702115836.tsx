@@ -12,17 +12,15 @@ import "swiper/css/pagination";
 
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper";
-import { RiChat1Fill, RiCoinsLine, RiFocus3Line, RiMentalHealthLine, RiRocketFill, RiRunLine } from 'react-icons/ri';
-import ScrollAnimation from 'react-animate-on-scroll';
+import { RiFocus3Line, RiRocketFill, RiRunLine } from 'react-icons/ri';
 
 
 
 export default function WorkTogether() {
   return (
     <>
-   <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
-      <section className={style.container}>
-        <h1>AS RAZÕES PORQUE NOS ESCOLHEM​</h1>
+    <section className={style.container}>
+        <h1>O que nos torna únicos</h1>
         <div className={style.containerCenter}>
 
         <Swiper
@@ -75,22 +73,6 @@ export default function WorkTogether() {
                </div>
               </div>
         </SwiperSlide>
-        <SwiperSlide className={style.containerCarosel}>
-        <div className={style.card}>
-            <div className={style.ContentTitle}>
-                <RiCoinsLine className={style.icon}/><h2>Preço justo</h2>
-                <p>Cobramos um preço justo por todos os nossos trabalhos, nunca buscamos prejudicar nossos parceiros e clientes.  </p>
-               </div>
-            </div>
-        </SwiperSlide>
-        <SwiperSlide className={style.containerCarosel}>
-        <div className={style.card}>
-            <div className={style.ContentTitle}>
-                <RiMentalHealthLine className={style.icon}/><h2>Social</h2>
-                <p>Sabemos a importância de cada um no mundo e por isso uma parte de nossos lucros são convertidos em ajuda para a comunidade.  </p>
-               </div>
-            </div>
-        </SwiperSlide>
         
    
       </Swiper>
@@ -98,7 +80,6 @@ export default function WorkTogether() {
         </div>
   
     </section>
-    </ScrollAnimation>
     </>
   )
 }

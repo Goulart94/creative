@@ -13,16 +13,14 @@ import "swiper/css/pagination";
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper";
 import { RiChat1Fill, RiCoinsLine, RiFocus3Line, RiMentalHealthLine, RiRocketFill, RiRunLine } from 'react-icons/ri';
-import ScrollAnimation from 'react-animate-on-scroll';
 
 
 
 export default function WorkTogether() {
   return (
     <>
-   <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
-      <section className={style.container}>
-        <h1>AS RAZÕES PORQUE NOS ESCOLHEM​</h1>
+    <section className={style.container}>
+        <h1>O que nos torna únicos</h1>
         <div className={style.containerCenter}>
 
         <Swiper
@@ -98,7 +96,6 @@ export default function WorkTogether() {
         </div>
   
     </section>
-    </ScrollAnimation>
     </>
   )
 }
