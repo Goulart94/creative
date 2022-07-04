@@ -78,7 +78,7 @@ export default function CommitmentServices() {
 
               <div className={style.textcard}>
                 <div>
-                  <h2>Hospedagem de Websites</h2>
+                  <h2>Criação Gráfica</h2>
                   <p>
                     O Principal foco da nossa empresa é a criação de websites
                     modernos e apelativos que fazem a sua marca atingir o máximo

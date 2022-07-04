@@ -63,7 +63,7 @@ const Home: NextPage = () => {
          {/*Section-for */}
          <section className={style.containerServices}>
           <div className={style.sectionFive}>
-            <div className={style.title}>
+            <div className={style.containerText}>
                <h1>
                 "Nossa missão é levar você e sua marca para todo o mundo."
               </h1>
@@ -74,7 +74,7 @@ const Home: NextPage = () => {
 
 
       </main>
-    
+      <WorkWhithUs></WorkWhithUs>
 
       <Footer></Footer>
 
