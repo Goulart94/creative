@@ -1,0 +1,58 @@
+//-------------------------------------------------------------------------------------------------------
+// SECTION ONE 
+//-------------------------------------------------------------------------------------------------------
+
+.sectionOne{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+
+   
+    
+    .containerTextOne{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            font-size: 73px;
+            color: var(--white);
+        }
+        span{
+            color: var(--white);
+        }
+      
+    }
+    
+   
+   
+}
+ .backgrundWebSites{
+
+        background: url(../../../public/images/products/webSites2.jpg);
+        background-repeat: no-repeat;
+        background-position: 100% 60%;
+}
+
+//-------------------------------------------------------------------------------------------------------
+// SECTION TWO
+//-------------------------------------------------------------------------------------------------------
+
+.sectionTwo{
+    height: 874.36px;
+   
+    .containerTextTwo{
+       display: flex;
+       
+
+       h2{
+        
+        font-size: 32px;
+        font-weight: 700;
+        border-bottom: 5px solid var(--pink-500);
+       }
+    }
+}
