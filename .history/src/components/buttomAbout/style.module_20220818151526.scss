@@ -1,0 +1,17 @@
+.btnAbout{
+  width: 300px;
+  padding: 1rem;
+  background:  #bf6bff;
+  color: var(--white);
+  margin-top: 2rem;      
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+  border-radius: 1rem;
+  transition: 0.3s;
+
+  &:hover{
+    background:  #BE6BFF;
+  }
+  
+}
